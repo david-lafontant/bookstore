@@ -14,7 +14,7 @@ To set up and run this app locally you need to do the followings:
 - Open the repository with `cd bookstore`.
 - Use your favorite editor, for VSCode user type `code .`.
 - Open the terminal of your code editor and type `npm i`.
-- Then type `npm run start" to launch the application.
+- Then type `npm run start` to launch the application.
 
 
 ## Built With
