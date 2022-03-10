@@ -29,7 +29,7 @@ const Form = () => {
       id: uuidv4(),
       title: formState.title[0],
       author: formState.author[0],
-      category: formState.author[0],
+      category: formState.category[0],
     };
 
     dispatch(addBook(newBook));
@@ -60,11 +60,11 @@ const Form = () => {
           required
         >
           <option value="">Select a category</option>
-          <option value="Category 1">Novel</option>
-          <option value="Category 2">Essay</option>
-          <option value="Category 3">History</option>
-          <option value="Category 2">Biography</option>
-          <option value="Category 3">LItterature</option>
+          <option value="Novel">Novel</option>
+          <option value="Essay">Essay</option>
+          <option value="History">History</option>
+          <option value="Biography">Biography</option>
+          <option value="LItterature">LItterature</option>
         </select>
 
         <button type="submit">ADD BOOK</button>
