@@ -32,8 +32,17 @@ const Form = () => {
       category: formState.category[0],
     };
 
-    dispatch(addBook(newBook));
+    dispatch(sentBook(newBook));
   };
+
+  const categoriesArr = [
+    'Novel',
+    'Essay',
+    'History',
+    'Biography',
+    'Litterature'
+  ];
+
 
   return (
     <form onSubmit={submitBookToStore} className="form-container">
@@ -53,18 +62,13 @@ const Form = () => {
           placeholder="Book Author"
           required
         />
-        <select
-          name="category"
-          id="categories"
-          onChange={handleChange}
-          required
-        >
-          <option value="">Select a category</option>
-          <option value="Novel">Novel</option>
-          <option value="Essay">Essay</option>
-          <option value="History">History</option>
-          <option value="Biography">Biography</option>
-          <option value="LItterature">LItterature</option>
+        <select name="category" id="categories" onChange={handleChange} required>
+          <option value="">Categories</option>
+          {
+            categoriesArr.map((category) => (
+              <option key={category} value={category}>{category}</option>
+            ))
+          }
         </select>
 
         <button type="submit">ADD BOOK</button>
