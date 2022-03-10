@@ -1,5 +1,5 @@
 
-.logo{
+.logo {
   min-width: 15rem;
   height: 2.313rem;
   font-family: Montserrat, sans-serif;
@@ -12,7 +12,7 @@
   color: #0692ff;
 }
 
-.user-icon{
+.user-icon {
   width: 5rem;
   height: 5rem;
   margin: 0 0 0 41.5rem;
@@ -20,29 +20,29 @@
   border: solid 1px var(--white);
 }
 
-.cms-header{
+.cms-header {
   width: 100%;
   height: 5.938rem;
   margin: 0 0 2.375rem;
   padding: 2rem;
   background-color: #fff;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.menu-link{
+.menu-link {
   list-style-type: none;
   display: flex;
   gap: 2rem;
 }
 
-a{
+a {
   color: inherit;
   text-decoration: inherit;
 }
 
-.book-container{
+.book-container {
   width: 100%;
   margin: 0.938rem 0.063rem 2.5rem 0;
   padding: 1rem;
@@ -54,27 +54,24 @@ a{
   background-color: #fff;
 }
 
-
-.progress-circle{
+.progress-circle {
   border-top: 3px;
   border-color: #0692ff;
   border-radius: 50%;
 }
 
-
-.book-stat{
+.book-stat {
   display: flex;
   justify-content: space-around;
   min-width: 50%;
 }
 
-.book-info{
+.book-info {
   max-width: 50%;
-
 }
 
-
-.progress-circle-bar{  
+.progress-circle-bar {
   width: 5.625rem;
   height: 5.62rem;
-  padding: 0.62rem 0.625rem 0.75rem 0.75rem;}
+  padding: 0.62rem 0.625rem 0.75rem 0.75rem;
+}

@@ -1,29 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@200;300;400;500;600&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@200;300;400;500;600&display=swap');
-
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body{
-
-    width: 100%;
-    background-color: #f5f6fa;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 5rem;
-
-    
-
+body {
+  width: 100%;
+  background-color: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5rem;
 }
 
 #root {
@@ -34,7 +23,3 @@ body{
   background-color: #fafafa;
   display: grid;
 }
-
-
-
-
