@@ -34,14 +34,14 @@ const ItemBook = (props) => {
         <div>
           <img className="progress-circle-bar" alt="progress-circle-bar" src={progress} />
         </div>
-        <div>
-          <span>64%</span>
-          <span>Completed</span>
+        <div className="reading-progress">
+          <p>64%</p>
+          <p>Completed</p>
         </div>
 
-        <div>
-          <span>Current chapter</span>
-          <span>Chapter 4</span>
+        <div className="reading-chapter">
+          <p>Current chapter</p>
+          <p>Chapter 4</p>
           <button type="button">UPDATE PROGRESS</button>
         </div>
       </div>
