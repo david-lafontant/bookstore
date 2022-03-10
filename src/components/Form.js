@@ -37,12 +37,11 @@ const Form = () => {
 
   return (
     <form onSubmit={submitBookToStore} className="form-container">
-      <h1>ADD NEW BOOK</h1>
-      <div className="form-inputs">
+      <h2>ADD NEW BOOK</h2>
+      <div className="form-input">
         <input
           name="title"
           type="text"
-          id="title"
           onChange={handleChange}
           placeholder="Book Title"
           required
@@ -50,7 +49,6 @@ const Form = () => {
         <input
           name="author"
           type="text"
-          id="name "
           onChange={handleChange}
           placeholder="Book Author"
           required
