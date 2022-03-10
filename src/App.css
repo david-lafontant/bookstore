@@ -1,7 +1,7 @@
-header.cms-header{
+header.cms-header {
   width: 100%;
   height: 6rem;
-   padding: 2rem;
+  padding: 2rem;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -28,15 +28,13 @@ header.cms-header{
   border: solid 1px var(--white);
 }
 
-
-
 .menu-link {
   list-style-type: none;
   display: flex;
   gap: 2rem;
 }
 
-.bookstore-link a{
+.bookstore-link a {
   height: 1rem;
   font-family: Montserrat, sans-serif;
   font-size: 0.813rem;
@@ -46,10 +44,9 @@ header.cms-header{
   line-height: normal;
   letter-spacing: 1.9px;
   color: var(--black-two);
-
 }
 
-.categories-link a{
+.categories-link a {
   height: 1rem;
   opacity: 0.5;
   font-family: Montserrat, sans-serif;
@@ -95,8 +92,7 @@ a {
   padding: 0.62rem 0.625rem 0.75rem 0.75rem;
 }
 
-
-.form-container h2{
+.form-container h2 {
   height: 1.5rem;
   margin: 1.813rem 32.75rem 1.188rem 0;
   padding-left: 1rem;
@@ -110,14 +106,13 @@ a {
   color: #888;
 }
 
-.form-input{
+.form-input {
   display: flex;
   gap: 1.5rem;
   padding: 0.5rem;
-} 
+}
 
-
-.form-input input{
+.form-input input {
   width: 30%;
   height: 2.813rem;
   padding: 0.5rem 0.8rem;
@@ -126,11 +121,11 @@ a {
   background-color: #fff;
 }
 
-.form-input select{
+.form-input select {
   width: 23%;
 }
 
-.form-input button{
+.form-input button {
   width: 12%;
   height: 2.813rem;
   padding: 0.8rem 1.2rem;
@@ -148,12 +143,12 @@ a {
   background-color: #0692ff;
 }
 
-.reading-progress{
+.reading-progress {
   display: grid;
-} 
-.reading-chapter{
+}
+.reading-chapter {
   display: grid;
-} 
+}
 
 .reading-chapter {
   height: 1.125rem;
