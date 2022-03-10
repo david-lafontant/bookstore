@@ -153,7 +153,7 @@ a {
 .reading-chapter p {
   height: 1.125rem;
   opacity: 0.5;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
