@@ -7,7 +7,15 @@ The Bookstore is a web application that allows the user to:
 - Remove a selected book.
 
 ## Set up
-This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. 
+To set up and run this app locally you need to do the followings:
+
+- Download install and git on your computer.
+- Clone the repository with `git clone https://github.com/david-lafontant/bookstore.git` on your terminal.
+- Open the repository with `cd bookstore`.
+- Use your favorite editor, for VSCode user type `code .`.
+- Open the terminal of your code editor and type `npm i`.
+- Then type `npm run start` to launch the application.
+
 
 ## Built With
 ### Major languages:
