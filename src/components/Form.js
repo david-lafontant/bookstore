@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
-import { sentBook } from '../redux/books/books';
+import { postBook } from '../redux/books/books';
 
 const Form = () => {
   const initialFormState = {
@@ -32,7 +32,7 @@ const Form = () => {
       category: formState.category[0],
     };
 
-    dispatch(sentBook(newBook));
+    dispatch(postBook(newBook));
   };
 
   const categoriesArr = [

@@ -30,7 +30,7 @@ export const removeBook = (id) => ({
   id,
 });
 
-export const sentBook = (payload) => (
+export const postBook = (payload) => (
   async (dispatch) => {
     await fetch(url, {
       method: 'POST',
