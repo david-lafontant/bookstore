@@ -8,7 +8,7 @@ const Header = () => (
         <li className="logo">
           <NavLink to="/bookstore">Bookstore CMS</NavLink>
         </li>
-        <li>
+        <li className="bookstore-link">
           <NavLink
             className={({ isActive }) => (isActive ? 'active' : '')}
             to="/bookstore"
@@ -16,7 +16,7 @@ const Header = () => (
             BOOKS
           </NavLink>
         </li>
-        <li>
+        <li className="categories-link">
           <NavLink
             className={({ isActive }) => (isActive ? 'active' : '')}
             to="/Categories"
