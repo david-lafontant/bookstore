@@ -1,7 +1,7 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
-import { removeBook } from '../redux/books/books';
+import { useDispatch } from 'react-redux';
+import { deleteBook } from '../redux/books/books';
 import progress from '../img/progress.png';
 
 const ItemBook = (props) => {
@@ -12,7 +12,7 @@ const ItemBook = (props) => {
   } = props;
 
   const handleRemoveBook = () => {
-    dispatch(removeBook(id));
+    dispatch(deleteBook(id));
   };
 
   return (
@@ -51,8 +51,8 @@ const ItemBook = (props) => {
 
 ItemBook.propTypes = {
   id: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
   categories: PropTypes.string.isRequired,
 };
 
