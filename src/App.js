@@ -12,13 +12,13 @@ import Categories from './components/Categories';
 const App = () => (
   <Router>
     <Header />
-    <section className="content">
-      <Routes>
-        <Route path="/bookstore" element={<Books />} />
-        <Route path="/categories" element={<Categories />} />
-        <Route path="/*" element={<Books />} />
-      </Routes>
-    </section>
+
+    <Routes>
+      <Route path="/bookstore" element={<Books />} />
+      <Route path="/categories" element={<Categories />} />
+      <Route path="/*" element={<Books />} />
+    </Routes>
+
   </Router>
 );
 
