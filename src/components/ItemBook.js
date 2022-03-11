@@ -18,7 +18,7 @@ const ItemBook = (props) => {
   return (
     <div className="book-container">
       <div className="book-info">
-        <div>
+        <div className="book-details">
           <p>{categories}</p>
           <h2>{title}</h2>
           <h3>{author}</h3>
