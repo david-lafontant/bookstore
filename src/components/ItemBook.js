@@ -18,25 +18,33 @@ const ItemBook = (props) => {
   return (
     <div className="book-container">
       <div className="book-info">
-        <div>
-          <span>{categories}</span>
+        <div className="book-details">
+          <p>{categories}</p>
           <h2>{title}</h2>
           <h3>{author}</h3>
         </div>
-        <div>
+        <div className="button-control">
           <button type="button">Comments</button>
-          <button type="button" onClick={handleRemoveBook}>Remove</button>
+          <button type="button" onClick={handleRemoveBook}>
+            Remove
+          </button>
           <button type="button">Edit</button>
         </div>
       </div>
       <div className="book-stat">
-
-        <div>
-          <img className="progress-circle-bar" alt="progress-circle-bar" src={progress} />
-        </div>
         <div className="reading-progress">
-          <p>64%</p>
-          <p>Completed</p>
+          <div>
+            <img
+              className="progress-circle-bar"
+              alt="progress-circle-bar"
+              src={progress}
+            />
+          </div>
+
+          <div>
+            <p className="percentage">64%</p>
+            <p className="completed">Completed</p>
+          </div>
         </div>
 
         <div className="reading-chapter">

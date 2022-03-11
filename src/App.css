@@ -25,7 +25,7 @@ header.cms-header {
   width: 5rem;
   height: 5rem;
   padding: 0.875rem;
-  border: solid 1px var(--white);
+  border: solid 1px #fff;
 }
 
 .menu-link {
@@ -48,7 +48,7 @@ a {
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-  color: var(--black-two);
+  color: #5f5f5f;
 }
 
 .categories-link a {
@@ -61,7 +61,7 @@ a {
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-  color: var(--black-two);
+  color: #aaa;
 }
 
 .book-container {
@@ -71,7 +71,6 @@ a {
   display: flex;
   border-radius: 4px;
   border: solid 1px var(--white);
-  justify-content: space-between;
   align-items: center;
   background-color: #fff;
 }
@@ -79,11 +78,15 @@ a {
 .book-stat {
   display: flex;
   justify-content: space-around;
-  max-width: 50%;
+  align-items: center;
+  width: 65%;
 }
 
 .book-info {
-  max-width: 50%;
+  max-width: 30%;
+  display: grid;
+  gap: 1.1rem;
+  margin-left: 00.875rem;
 }
 
 .progress-circle-bar {
@@ -130,7 +133,7 @@ a {
   height: 2.813rem;
   padding: 0.8rem 1.2rem;
   border-radius: 3px;
-  font-family: RobotoSlab, sans-serif;
+  font-family: RobotoSlab, serif;
   font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
@@ -140,14 +143,23 @@ a {
   text-align: center;
   color: #fff;
   background-color: #0692ff;
+  border: #0290ff;
 }
 
 .reading-progress {
-  display: grid;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+
+.reading-progress p {
+  text-align: left;
 }
 
 .reading-chapter {
   display: grid;
+  gap: 0.6rem;
 }
 
 .reading-chapter p {
@@ -161,4 +173,102 @@ a {
   line-height: normal;
   letter-spacing: normal;
   color: var(--black-two);
+}
+
+.book-info p {
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.95rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
+}
+
+.book-info h2 {
+  font-family: RobotoSlab, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: var(--black-two);
+}
+
+.book-info h3 {
+  font-family: RobotoSlab, serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.button-control button {
+  height: 1.188rem;
+  margin-top: 0.835rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.835rem;
+  font-family: RobotoSlab, serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  background-color: #fff;
+  border: none;
+}
+
+.completed {
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #c6c6c6;
+}
+
+.percentage {
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #191919;
+}
+
+.reading-chapter button {
+  width: 11.5rem;
+  height: 2.063rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0692ff;
+  border: #0290ff;
+  font-family: RobotoSlab, serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
 }
