@@ -267,10 +267,8 @@ a {
   color: #fff;
 }
 
-.book-details{
-display: flex;
-flex-direction: column;
-gap: 0.6rem;
+.book-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
 }
-
-
